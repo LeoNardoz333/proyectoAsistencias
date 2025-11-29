@@ -18,7 +18,7 @@ use App\Http\Controllers\UsuarioRolController;
 use App\Http\Controllers\UsuariosController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('users.index');
 });
 
 Route::get('/asignacion-horario', function () {
