@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 import Login from './components/frontend/login';
+import React from 'react';
 
 function App() {
   return (

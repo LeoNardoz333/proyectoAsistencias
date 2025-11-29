@@ -1,4 +1,5 @@
 import "../../assets/css/elements/inputs.scss";
+import React from 'react';
 
 export function TextInput({ placeholder, value, onChange, className }) {
     return (
